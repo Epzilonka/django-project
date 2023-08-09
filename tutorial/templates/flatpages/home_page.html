@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<h3 style="margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;">
+    {{ flatpage.title }}</h3>
+
+{{ flatpage.content }}
+{% endblock content %}

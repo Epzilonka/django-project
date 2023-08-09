@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<h3 style="margin: 10px 30px;">{{ flatpage.title }}</h3>
+{{ flatpage.content }}
+<hr style="border: 2px solid blue;
+            width: 800px;
+            margin: 0 auto 0 0;">
+{{ flatpage.content }}
+{% endblock content %}
